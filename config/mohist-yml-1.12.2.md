@@ -1,28 +1,28 @@
 ### Mohist.yml
 
-The file path `*/mohist-config/mohist.yml`
+Путь к файлу `*/mohist-config/mohist.yml`
 
 * `entity-tick-limit: 300`
 
 * `hidejoinmodslist: false`  
-  #: Hide the player's mod list
+  #: Скрыть список модов игрока
 
 * `world`  
-  #: World-related settings
+  #: Настройки связанные с миром
   - `directory_in_client: true`  
-    #: Install the client to the world storage path
+    #: Установите клиент на путь мирового хранилища
   - `stopserversaveworlds: false`  
-    #: Do not save all worlds when the server is shut down
+    #: Не сохраняйте все миры, когда сервер выключен
   - `dimensionsNotLoaded: []`  
-    #: The dimension IDs in this list will not be loaded by the server
+    #: Идентификаторы измерений в этом списке не будут загружены сервером
 
 * `mohist`
   - `use_custom_java8: false`  
-    #: After setting to `true` you can use a customized version of JAVA8
+    #: После установки значения "true" вы можете использовать настроенную версию JAVA8
   - `check_update: true`  
-    #: Mohist version update detection
+    #: Обнаружение обновления версии Мохист
   - `server-type: FML`  
-    #: Set the icon displayed in the lower right corner of the client MOTD, which can be set to `FML` `BUKKIT` `VANILLA`
+    #: Установите значок, отображаемый в правом нижнем углу клиентского MOTD, который может быть установлен в `FML` `BUKKIT` `VANILLA`
   - `lang: xx_XX`  
     #: The language of the console and internal prompts, the system language is used by default
   - `console_name: Server`  
